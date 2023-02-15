@@ -1,4 +1,5 @@
 //your code here
+var todovalue=document.getElementById("newTodoInput").value;
 
 var ol=document.getElementById(todoList);
 
