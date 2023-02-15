@@ -1,5 +1,5 @@
 //your code here
-var todoValue=document.getElementById("newTodoInput").value;
+var todoValue=document.getElementById("newTodoInput");
 var btn=document.getElementById("addTodoBtn");
 var ol=document.getElementById(todoList);
 
