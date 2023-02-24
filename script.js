@@ -7,7 +7,7 @@ function addTodo() {
   if (todoValue.value) {
     // we need to create a li
     var li = document.createElement("li");
-    li.textContent = todoValue.value;
+    li.innerText = todoValue.value;
     ol.appendChild(li);
     todoValue.value = "";
   }
